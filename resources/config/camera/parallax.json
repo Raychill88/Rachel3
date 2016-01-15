@@ -1,0 +1,53 @@
+{
+  "background": [
+    {
+      "xMultiplier": 0.1,
+      "xCanSpawn": true,
+      "xCanRelease": false,
+      "yMultiplier": 0,
+      "yCanSpawn": false,
+      "yCanRelease": false,
+      "zIndex": 1,
+      "scaleMultiplier": 0,
+      "ordered": true,
+      "pieceOptions": [
+        {
+          "image": "resources/images/space/bg1.png"
+        },
+        {
+          "image": "resources/images/space/bg2.png"
+        },
+        {
+          "image": "resources/images/space/bg3.png"
+        },
+        {
+          "image": "resources/images/space/bg4.png"
+        }
+      ]
+    },
+    {
+      "xMultiplier": 0.6,
+      "xCanSpawn": true,
+      "xCanRelease": true,
+      "xGapRange": [50, 250],
+      "yMultiplier": 0.6,
+      "yCanSpawn": true,
+      "yCanRelease": true,
+      "yGapRange": [50, 250],
+      "zIndex": 5,
+      "scaleMultiplier": 0.6,
+      "pieceOptions": [
+        {
+          "scale": 0.8,
+          "opacity": 0.8,
+          "image": "resources/images/space/planet_01.png"
+        },
+        {
+          "scale": 0.8,
+          "opacity": 0.8,
+          "image": "resources/images/space/planet_02.png"
+        }
+      ]
+    }
+  ]
+}
